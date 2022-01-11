@@ -5,7 +5,7 @@ header{
 }
 .ms_verde{
     background-color: rgba(26,188,156,255);
-    min-height: 400px;
+    min-height: 100px;
 }
 .img-avatar{
     transform: scale(0.5);
@@ -16,5 +16,14 @@ header{
         width: 40%;
     }
 }
-
-/* MAIN */
+.ms_white{
+    min-height: 100px;
+}
+.ms_light-grey{
+    background-color: rgba(58,84,109,255);
+    min-height: 100px;
+}
+.ms_dark-grey{
+    background-color: rgba(44,62,80,255);
+    min-height: 100px;
+}
