@@ -1,0 +1,10 @@
+header{
+    background-color: rgba(44,62,80,255);
+    color: white;
+}
+.ms_verde{
+    background-color: rgba(26,188,156,255);
+}
+.img-avatar{
+    transform: scale(0.5);
+}
