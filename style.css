@@ -8,3 +8,12 @@ header{
 .img-avatar{
     transform: scale(0.5);
 }
+.ms_testo_centro{
+    text-align: center;
+    color: white;
+}
+@media screen and (min-width: 769px){
+    .img-avatar{
+        width: 40%;
+    }
+}
