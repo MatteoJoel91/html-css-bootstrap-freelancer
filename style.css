@@ -5,6 +5,7 @@ header{
 }
 .ms_verde{
     background-color: rgba(26,188,156,255);
+    min-height: 400px;
 }
 .img-avatar{
     transform: scale(0.5);
