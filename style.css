@@ -11,15 +11,28 @@ header{
 .img-avatar{
     width: 20%;
 }
-.ms_padding-top{
-    padding-top: 100px;
+.ms_padding{
+    padding-top: 120px;
+    padding-bottom: 60px;
 }
 .ms_none{
     display: none;
 }
-
+.ms_text-big{
+    font-size: 50px;
+    font-weight: bold;
+}
 .ms_white{
     min-height: 100px;
+}
+
+.ms_barra{
+    height: 6px;
+    width: 100%;
+    border-radius: 5px;  
+}
+.ms_text{
+    text-align: justify;
 }
 .ms_light-grey{
     background-color: rgba(58,84,109,255);
