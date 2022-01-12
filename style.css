@@ -1,21 +1,23 @@
 /* HEADER */
 header{
     background-color: rgba(44,62,80,255);
-    color: white;
+}
+.menu-header{
+    min-height: 100px;
 }
 .ms_verde{
     background-color: rgba(26,188,156,255);
-    min-height: 100px;
 }
 .img-avatar{
-    transform: scale(0.5);
+    width: 20%;
+}
+.ms_padding-top{
+    padding-top: 100px;
+}
+.ms_none{
+    display: none;
 }
 
-@media screen and (min-width: 769px){
-    .img-avatar{
-        width: 40%;
-    }
-}
 .ms_white{
     min-height: 100px;
 }
@@ -26,4 +28,25 @@ header{
 .ms_dark-grey{
     background-color: rgba(44,62,80,255);
     min-height: 100px;
+}
+@media screen and (min-width: 375px) and (max-width: 768px){
+    .img-avatar{
+        width: 50%;
+    }
+    .ms_display{
+        display: none;
+    }
+    .ms_none{
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .img-avatar{
+        width: 30%;
+    }
+}
+@media screen and (min-width: 992px){
+    .img-avatar{
+        width: 20%;
+    }
 }
