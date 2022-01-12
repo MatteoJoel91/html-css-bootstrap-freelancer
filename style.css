@@ -3,10 +3,11 @@
     margin: 0;
     padding: 0;
   }
-
 a{
     color: white;
 }
+
+
 /* HEADER */
 .ms_nav-bar{
     background-color: rgba(44,62,80,255);
@@ -26,9 +27,6 @@ a{
 .ms_padding{
     padding-top: 120px;
     padding-bottom: 60px;
-}
-.ms_none{
-    display: none;
 }
 .ms_text-big{
     font-size: 50px;
@@ -81,6 +79,8 @@ a{
 .ms_button:hover{
     background-color: rgba(58,84,109,255);
 }
+
+
 /* REGOLE RESPONSIVE */
 @media screen and (min-width: 375px) and (max-width: 768px){
     .img-avatar{
