@@ -8,7 +8,7 @@ a{
     color: white;
 }
 /* HEADER */
-header{
+.ms_nav-bar{
     background-color: rgba(44,62,80,255);
 }
 .ms_height-100{
@@ -34,10 +34,6 @@ header{
     font-size: 50px;
     font-weight: bold;
 }
-.ms_white{
-    min-height: 100px;
-}
-
 .ms_barra{
     height: 6px;
     width: 100%;
@@ -55,12 +51,11 @@ header{
     min-height: 100px;
 }
 
-/* REGOLE HOVER */
 
-.nav-hover:hover {
+/* REGOLE HOVER */
+.nav-link.active.fw-bold:hover{
     color: rgba(26,188,156,255);
 }
-
 .hover{
     position: relative;
 }
@@ -90,12 +85,6 @@ header{
 @media screen and (min-width: 375px) and (max-width: 768px){
     .img-avatar{
         width: 50%;
-    }
-    .ms_display{
-        display: none;
-    }
-    .ms_none{
-        display: inline-block;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 992px){
