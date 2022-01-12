@@ -59,7 +59,7 @@ header{
 
 .nav-hover:hover {
     color: rgba(26,188,156,255);
-  }
+}
 
 .hover{
     position: relative;
@@ -83,7 +83,9 @@ header{
 .bi-plus-circle{
     font-size: 150px;
 }
-
+.ms_button:hover{
+    background-color: rgba(58,84,109,255);
+}
 /* REGOLE RESPONSIVE */
 @media screen and (min-width: 375px) and (max-width: 768px){
     .img-avatar{
