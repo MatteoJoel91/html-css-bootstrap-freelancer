@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
+}
 a{
     color: white;
 }
@@ -34,6 +34,9 @@ a{
     font-size: 50px;
     font-weight: bold;
 }
+.ms_testo-bianco{
+    color: white !important;
+}
 .ms_barra{
     height: 6px;
     width: 100%;
@@ -57,8 +60,8 @@ a{
 
 
 /* REGOLE HOVER */
-.nav-link.active.fw-bold:hover{
-    color: rgba(26,188,156,255);
+.ms_testo-bianco:hover{
+    color: rgba(26,188,156,255) !important;
 }
 .hover{
     position: relative;
